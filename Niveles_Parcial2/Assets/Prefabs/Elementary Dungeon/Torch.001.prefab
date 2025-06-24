@@ -262,6 +262,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fire_Effect
       objectReference: {fileID: 0}
+    - target: {fileID: 6343718281775055618, guid: 4daecac5922e4cf46914efecc3de4129,
+        type: 3}
+      propertyPath: NoiseModule.frequency
+      value: 0.0001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6343718281775055618, guid: 4daecac5922e4cf46914efecc3de4129,
+        type: 3}
+      propertyPath: NoiseModule.strength.scalar
+      value: -0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6343718281775055618, guid: 4daecac5922e4cf46914efecc3de4129,
+        type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 6343718281775055618, guid: 4daecac5922e4cf46914efecc3de4129,
+        type: 3}
+      propertyPath: InitialModule.startSizeY.scalar
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6343718281775055618, guid: 4daecac5922e4cf46914efecc3de4129,
+        type: 3}
+      propertyPath: InitialModule.startSizeZ.scalar
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 9100074794992775766, guid: 4daecac5922e4cf46914efecc3de4129,
         type: 3}
       propertyPath: m_RootOrder
