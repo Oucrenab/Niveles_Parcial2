@@ -1,18 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-1474755432642081552
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 7
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -20,13 +7,12 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Cosa
-  m_Shader: {fileID: -6465566751694194690, guid: d666afdc51e33f642a340b5399292dec,
+  m_Name: agua
+  m_Shader: {fileID: -6465566751694194690, guid: bea38c8b1b24ff243b957f9ceda19434,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _ALPHATEST_ON
   - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -55,15 +41,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AlphaClip: 1
+    - _AlphaClip: 0
     - _AlphaToMask: 0
     - _Blend: 0
     - _CastShadows: 1
-    - _Cull: 2
-    - _Distance: 24
+    - _CrackShineSize: 0.023
+    - _CrackSize: 0.18
+    - _Cull: 0
     - _DstBlend: 10
-    - _Edge: 12
-    - _Float: 0
+    - _Offset: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     - _SrcBlend: 5
@@ -71,5 +57,23 @@ Material:
     - _ZTest: 4
     - _ZWrite: 0
     - _ZWriteControl: 0
-    m_Colors: []
+    - _velocidad: 0.004
+    m_Colors:
+    - _CraksColor: {r: 0.27450982, g: 0.27735922, b: 0.44313726, a: 0}
+    - _LavaColor: {r: 0, g: 0.6485143, b: 1, a: 0}
+    - _SecundariColor: {r: 0.043137237, g: 0.4278052, b: 0.81960785, a: 0}
+    - _ShineColor: {r: 0.0016631816, g: 0.009256798, b: 0.027122641, a: 0}
   m_BuildTextureStacks: []
+--- !u!114 &2216119149926648032
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
